@@ -6,7 +6,7 @@
 body {
     margin: 2%;
     margin-top: 0px;
-    height: 300vh;
+    margin-bottom: 0px;
 }
 
 header {
@@ -141,3 +141,28 @@ main{
     height: 100%;
 }
 
+footer {
+    background-color: black;
+    padding: 20px 0px;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer ul li {
+    padding: 10px;
+}
+.copy {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.copy label{
+    color:white;
+    font-weight: bold;
+    margin-top: 10px;
+}
